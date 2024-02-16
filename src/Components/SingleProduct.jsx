@@ -1,0 +1,38 @@
+import React from 'react';
+import PropTypes from 'prop-types'; // Import PropTypes
+import { FaRupeeSign } from "react-icons/fa";
+// eslint-disable-next-line react/prop-types
+function SingleProduct({prop}) {
+    // eslint-disable-next-line react/prop-types
+    const{title,price,image}=prop
+  return (
+    <div className='flex flex-col border    border-none cursor-pointer   '>
+        <img className='' src={image}/> 
+       <div className='bg-[#141414] p-2'>
+        <h2  style={{ fontWeight: 500 }} className='text-lg '>{title}</h2>
+      <div className='flex justify-between py-3'>
+        <div className='flex items-center flex-wrap  '>
+        <FaRupeeSign />
+      <p className='font-bold'>{price}</p>
+      <div className='self-end pb-1 pl-2'>
+      <span className='text-[12px]'>8999</span>
+<span  style={{ fontWeight: 500 }} className='text-[12px] text-[#2FC14F] font-[500]'>(50% Off)</span>
+      </div>  
+        </div>
+      <img className='h-[30px] w-[26px]' src='https://iili.io/JEEvUdu.png'/>
+
+      </div>
+     
+        </div>
+     
+    </div>
+  );
+}
+
+// Define prop types for SingleProduct component
+SingleProduct.propTypes = {
+  title: PropTypes.string.isRequired, // title is required and must be a string
+  price: PropTypes.number.isRequired, // price is required and must be a number
+};
+
+export default SingleProduct;

@@ -27,9 +27,9 @@ import Dashboard from "./Page/Dashboard"
 // // Log to consol
 
 return(
-  <>
+  < div className="flex justify-center">
   <Dashboard/>
-  </>
+  </div>
 )
  }
 export default App

@@ -2,7 +2,7 @@ import React from 'react'
 import { RxUpload } from "react-icons/rx";
 function Category() {
   return (
-<div className='flex justify-between'>
+<div className='flex justify-between '>
     <div className='flex items-center gap-2'>
     <p>
           bags

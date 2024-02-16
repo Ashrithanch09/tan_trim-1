@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
-  box-sizing: border-box;
-}
+
 body {
   height: 100vh;
   margin: 0;
@@ -11,4 +9,5 @@ body {
   font-family: "Encode Sans";
   background-color: #0c0c0c;
   color: #e5dfd9;
+  box-sizing: border-box;
 }

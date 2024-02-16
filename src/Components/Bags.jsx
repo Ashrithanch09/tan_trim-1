@@ -10,15 +10,15 @@ const Bags = () => {
   }, []);
 
   return (
-    <div className="py-6">
-      <ul className=" gap-2  grid grid-cols-6     ">
+    <div className="py-8">
+      <ul className=" flex gap-4   flex-wrap justify-start  ">
         {bags?.map((item) => {
           return (
-            <li key={item.id} className="flex flex-col  justify-between items-center">
+            <li key={item.id} className="flex flex-col  rounded-lg justify-between items-center relative border border-transparent hover:border-gray-200  transition duration-300 ease-in-out">
               <a className="">
-                <img className="h-[35px] w-[35px] sel" src={item.image} />
+                <img className="h-[38px] w-[37px] md:h-[55px] md:w-[65px] " src={item.image} />
               </a>
-              <p className=" text-center py-2">{item.title}</p>
+              <p className=" text-center text-[12px] py-2">{item.title}</p>
             </li>
           );
         })}
