@@ -1,0 +1,1 @@
+export  const GET_BAGS='https://5a44d073-1bc7-4f5f-945f-08d77628416c.mock.pstmn.io/bag-icons'

@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Dashboard from "./Page/Dashboard"
 
-function App() {
-  const [count, setCount] = useState(0)
+ function App() {
+// const [data,setdatat]=useState([])
+  
+// async function fetdata(){
+// try{
+  
+//   const response=await fetch('https://5a44d073-1bc7-4f5f-945f-08d77628416c.mock.pstmn.io/bag-images')
+//  cdata=await response.json()
+//  setdatat(data)
+// }catch(err){
+//   console.log(err)
+// }
+// }
+// fetdata()
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+//   return (
+//     <div className='App'>
+//       <h1>Hello React.</h1>
+//       {data?.map(item=><li key={item.image}>{item?.title}</li>)}
+//       <h2>Start editing to see some magic happen!</h2>
+//     </div>
+//   );
+// } 
 
+// // Log to consol
+
+return(
+  <>
+  <Dashboard/>
+  </>
+)
+ }
 export default App
