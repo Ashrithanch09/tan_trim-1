@@ -1,11 +1,12 @@
 # React + Vite
 Project Overview
+
 ![image](https://github.com/nileshpatil-15/tan_trim/assets/113256649/892aa7c5-9801-4fcb-9266-415cf632e8eb)
 
 TanTrim E-Commerce Site
 Welcome to TanTrim, your go-to e-commerce platform for bags! TanTrim offers a wide range of stylish and functional bags for various purposes, ranging from backpacks to messenger bags, handbags, and more.
 
-Project Overview
+----Project Overview----
 TanTrim is an e-commerce website dedicated to providing customers with a seamless shopping experience for bags of all kinds. Whether you're a student looking for a durable backpack or a professional in need of a sleek messenger bag, TanTrim has you covered.
 
 The website features a user-friendly interface where customers can browse through various categories, view product details, add items to their cart, and securely complete their purchases. With its responsive design and intuitive navigation, TanTrim aims to make online bag shopping convenient and enjoyable for everyone.
@@ -19,7 +20,7 @@ Tailwind CSS: Tailwind CSS is a utility-first CSS framework that enables rapid U
 
 Axios: Axios is a popular JavaScript library for making HTTP requests from the browser. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it ideal for fetching data from external APIs and interacting with the server.
 
-Instructions for Running the Project Locally
+------Instructions for Running the Project Locally-----
 1] git clone https://github.com/nileshpatil-15/tan_trim.git
 2] cd TannTrim
 3] npm i 
