@@ -8,7 +8,7 @@ function Navbar() {
   };
 
   return (
-    <header className="flex justify-between h-[90px] pt-4">
+    <header className="flex justify-between h-[90px] pt-4 ">
       <div>
         {/* Logo */}
         <img className="cursor-pointer"  src="https://iili.io/JE050MX.png" alt="Logo" />

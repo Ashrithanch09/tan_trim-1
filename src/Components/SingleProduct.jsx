@@ -18,7 +18,7 @@ const toggleBookmark=()=>{
 
   return (
     <div className='flex flex-col border border-none cursor-pointer relative'>
-    <button onClick={toggleBookmark} className="absolute top-3 right-4 z-10">
+    <button onClick={toggleBookmark} className="absolute top-3 right-3 z-10">
         <i style={{ fontSize: '30px' }} className={`${bookmark} text-black`} ></i>{" "}
        
     </button>
