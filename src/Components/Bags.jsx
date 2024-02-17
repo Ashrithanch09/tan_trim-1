@@ -16,7 +16,7 @@ const Bags = () => {
           return (
             <li key={item.id} className="flex flex-col  rounded-lg justify-between items-center relative border border-transparent hover:border-gray-200  transition duration-300 ease-in-out">
               <a className="">
-                <img className="h-[38px] w-[37px] md:h-[55px] md:w-[65px] " src={item.image} />
+                <img className="h-[38px] w-[37px] md:h-[55px] md:w-[65px] lg:w-[105px] lg:h-[85px] " src={item.image} />
               </a>
               <p className=" text-center text-[12px] py-2">{item.title}</p>
             </li>
